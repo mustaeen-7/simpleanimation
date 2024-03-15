@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+iframe {
+  width: 100%;
+  margin-right: auto;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 0.3rem;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1,
+p {
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
